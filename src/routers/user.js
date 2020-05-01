@@ -33,7 +33,7 @@ router.post('/users/login', async (req, res) => {
       token
     });
   } catch (e) {
-    res.status(400).send(e);
+    res.status(400).send();
   }
 });
 
